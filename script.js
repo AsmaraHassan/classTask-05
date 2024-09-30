@@ -31,4 +31,3 @@ function calculateAge() {
   document.getElementById('months').textContent = ageMonth;
   document.getElementById('days').textContent = ageDay;
 }
-
