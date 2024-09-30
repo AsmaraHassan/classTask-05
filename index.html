@@ -3,40 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Class Task</title>
-</head>   
-    <body>
+    <title>Age Calculator</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Age Calculator</h1>
+
+
+        <div class="form">
+            <label for="dob"></label>
+            <input type="date" id="dob">
+            <button onclick="calculateAge()">Calculate Age</button>
+        </div>
+        <div class="result">
+           <div id="year">0 years</div>
+           <div id="month">  0 months</div>
+           <div id="days">  0 days</div>
         
-            <header>
-                <h1>AGE CALCULATOR</h1>
-            </header>
-    
-            <div>
-                <label>Enter your Date of Birth</label><br>
-                <input id="inputDob" 
-                       type="date" 
-                       value="2000/01/01" />
-    <br />
-    
-            <div>
-                <label>Current Date</label><br>
-                <input id="calculatedate"
-                       type="date" 
-                       value="" />
-                       
-            <button type="button" 
-            onclick="getDOB()">
-        Calculate
-    </button>
-    <br />
-    <div id="currentAge"></div>
-            </div>
-            <br />
-            </div>
-            <br />
-    
-        
-    
-    <script src="./script.js"></script>
+        </div>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
