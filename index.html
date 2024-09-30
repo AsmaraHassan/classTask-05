@@ -3,24 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Age Calculator</title>
+    <title>Age calculate</title>
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
     <div class="container">
-        <h1>Age Calculator</h1>
-
-
-        <div class="form">
-            <label for="dob"></label>
-            <input type="date" id="dob">
-            <button onclick="calculateAge()">Calculate Age</button>
+        <div class="calculator">
+            <input type="date" id="birthdate" placeholder="Select your birthdate">
+            <button id="calculateAge" onclick="calculateAge()">Calculate</button>
         </div>
-        <div class="result">
-           <div id="year">0 years</div>
-           <div id="month">  0 months</div>
-           <div id="days">  0 days</div>
-        
+
+        <div class="results">
+            <div class="box">
+                <h1 id="years">24</h1>
+                <p>Years</p>
+            </div>
+            <div class="box">
+                <h1 id="months">8</h1>
+                <p>Months</p>
+            </div>
+            <div class="box">
+                <h1 id="days">12</h1>
+                <p>Days</p>
+            </div>
         </div>
     </div>
     <script src="script.js"></script>
