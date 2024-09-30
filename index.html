@@ -4,8 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Class Task</title>
-</head>
-<body>
+</head>   
+    <body>
+        <div class="container">
+            <header>
+                <h1>AGE CALCULATOR</h1>
+            </header>
     
+            <div>
+                <label>Enter your Date of Birth</label><br>
+                <input id="inputDob" 
+                       type="date" 
+                       value="2000/01/01" />
+
+
+                       <br />
+    
+            <div>
+                <label>Current Date</label><br>
+                <input id="calculatedate"
+                       type="date" 
+                       value="" />
+                       
+            <button type="button" 
+            onclick="getDOB()">
+        Calculate
+    </button>
+    <br />
+    <div id="currentAge"></div>
+            </div>
+            <br />
+            </div>
+            <br />
+    
+        
+    
+    <script src="./script.js"></script>
 </body>
 </html>
