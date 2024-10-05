@@ -25,7 +25,7 @@ function calculateAge() {
     ageYear--;
     ageMonth += 12;
   }
-
+// getting the elements
 
   document.getElementById('years').textContent = ageYear;
   document.getElementById('months').textContent = ageMonth;
